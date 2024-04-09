@@ -14,7 +14,7 @@ def main():
     from deepforest import get_data
     model = main.deepforest()
     model.use_release()
-    sample_image_path = get_data("A:/Downloads/drone-view-forest.jpg")
+    sample_image_path = get_data("treeImage.jpg")
     plot(model,sample_image_path)
     print("Number of Trees in the Image :",count(model,sample_image_path))
 
