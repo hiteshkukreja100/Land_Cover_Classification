@@ -1,6 +1,6 @@
-from deepforest import main
-from deepforest import get_data
 import matplotlib.pyplot as plt
+import warnings
+warnings.filterwarnings("ignore")
 def plot(model,img):
     plot = model.predict_tile(img, return_plot = True,iou_threshold=0.4, patch_size=250)
     plt.imshow(plot[:,:,::-1])
@@ -14,7 +14,7 @@ def main():
     from deepforest import get_data
     model = main.deepforest()
     model.use_release()
-    sample_image_path = get_data("treeImage.jpg")
+    sample_image_path = get_data("A:/Downloads/treeImage.jpg")
     plot(model,sample_image_path)
     print("Number of Trees in the Image :",count(model,sample_image_path))
 
