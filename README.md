@@ -32,11 +32,13 @@ streamlit run app.py
 ## Example
 
 Here's a screenshot of the user interface and the Predictions
-Predictions:
+
+### Predictions:
 ![predictedMask](https://github.com/hiteshkukreja100/Land_Cover_Classification/assets/117500378/3b307223-6f2b-4717-9aec-44dbf967346f)
-Tree count:
+
+### Tree count:
 ![tree_cnt](https://github.com/hiteshkukreja100/Land_Cover_Classification/assets/117500378/0604a810-6d0f-4a50-a27e-f9a10fd4d393)
-App UI:
+### App UI:
 ![landClassification](https://github.com/hiteshkukreja100/Land_Cover_Classification/assets/117500378/286122a9-7d28-465e-976e-33a687f5225d)
 
 ## Drive Link
